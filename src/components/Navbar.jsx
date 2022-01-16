@@ -8,7 +8,7 @@ const Navbar = () => {
       <li>
         <a
           href={`#${props.item}`}
-          className="hover:bg-cyan-700 px-4 py-2 rounded-lg transition-all duration-100 hover:cursor-pointer"
+          className="hover:bg-cyan-700/70 px-4 py-2 rounded-lg transition-all duration-100 hover:cursor-pointer"
         >
           {props.item}
         </a>
@@ -18,11 +18,11 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 w-full">
-      <div className="flex justify-between text-white px-10 py-5 items-center bg-cyan-800">
-        <a href="#feature">
-          <h2 className="text-3xl font-bold">HERMAN LOH</h2>
+      <div className="flex justify-between text-white px-10 py-4 items-center bg-slate-600/20 backdrop-blur-sm border-b border-white/40">
+        <a href="#home">
+          <h2 className="text-2xl font-bold">HERMAN LOH</h2>
         </a>
-        <ul className="flex space-x-2 text-lg lowercase font-thin">
+        <ul className="flex space-x-2 text-md lowercase font-thin">
           {navItems.map((el) => (
             <NavItem item={el} />
           ))}
