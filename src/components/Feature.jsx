@@ -16,6 +16,7 @@ const Feature = () => {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
+                .pauseFor(1000)
                 .typeString("a Full-Stack Web Developer & Web Designer.")
                 .start();
             }}
