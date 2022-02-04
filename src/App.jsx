@@ -1,17 +1,16 @@
 import "./App.css";
-import { Navbar, Feature } from "./components";
+import { Navbar, Feature, AboutMe } from "./components";
 
 function App() {
   return (
-    <div className="App bg-slate-900 text-white font-poppins pt-24" id="home">
+    <div
+      className="App bg-slate-900 text-white font-poppins pt-24 min-h-screen"
+      id="home"
+    >
       <Navbar />
-      <div className="grid grid-cols-1 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 max-w-5xl mx-auto">
         <Feature />
-        <div className="h-96"></div>
-        <div className="h-96"></div>
-        <div className="h-96"></div>
-        <div className="h-96"></div>
-        <h2>About</h2>
+        <AboutMe />
         <h2 id="experience">Experience</h2>
         <h2>Projects</h2>
         <h2>Skills</h2>
