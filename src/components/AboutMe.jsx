@@ -8,7 +8,7 @@ const AboutMe = () => {
         I was a design student who fell into the rabbit hole of web-development.
         After being inspired by the capabilities of modern web technology, I not
         only wanted to design beautiful websites, but also have the capability
-        to bring them to life!
+        to bring them to life! Other Info
       </p>
     </div>
   );
